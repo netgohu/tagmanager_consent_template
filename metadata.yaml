@@ -1,5 +1,5 @@
 homepage: "https://www.netgo.hu/"
 documentation: "https://github.com/netgohu/tagmanager_consent_template/"
 versions:
-  - sha: 4261fde6076a478ddeae0f9dd1fcd14d47374a7b
+  - sha: e19e7d3097c863498528abe157a1087d544ec7f4
     changeNotes: Initial release.
