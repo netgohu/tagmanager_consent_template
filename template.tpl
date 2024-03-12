@@ -14,6 +14,11 @@ ___INFO___
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
+  "categories": [
+    "UTILITY",
+    "ANALYTICS",
+    "ADVERTISING"
+  ],
   "version": 1,
   "brand": {
     "displayName": "NetGo.hu",
