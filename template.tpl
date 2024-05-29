@@ -193,7 +193,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "wait_for_update",
     "displayName": "Wait for update",
     "simpleValueType": true,
-    "defaultValue": 0,
+    "defaultValue": 500,
     "valueValidators": [
       {
         "type": "NUMBER"
@@ -443,12 +443,10 @@ const defaultConsentState = {
   ad_personalization: data.default_consent_ad_personalization,  
   functionality_storage: data.default_consent_functionality_storage,
   personalization_storage: data.default_consent_personalization_storage,
-  security_storage: data.default_consent_security_storage 
+  security_storage: data.default_consent_security_storage,
+  wait_for_update: data.wait_for_update  
 };
 
-if(data.wait_for_update !== 0) {
-  defaultConsentState.wait_for_update = data.wait_for_update;
-}
 //Set default consent
 setDefaultConsentState(defaultConsentState);
 
@@ -467,12 +465,9 @@ for (let index = 0; index < regionConsents.length; index++) {
 	functionality_storage: regionConsent.region_consent_functionality_storage,
 	personalization_storage: regionConsent.region_consent_personalization_storage,
 	security_storage: regionConsent.region_consent_security_storage,
+    wait_for_update: data.wait_for_update,
 	region: currentRegions   
-  };
-  
-  if(data.wait_for_update !== 0) {
-    consentRegionData.wait_for_update = data.wait_for_update;
-  }
+  };   
  
   setDefaultConsentState(consentRegionData);
 }
