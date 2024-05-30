@@ -196,10 +196,7 @@ ___TEMPLATE_PARAMETERS___
     "defaultValue": 500,
     "valueValidators": [
       {
-        "type": "NUMBER"
-      },
-      {
-        "type": "NUMBER"
+        "type": "POSITIVE_NUMBER"
       }
     ],
     "help": "If your banner loads asynchronously, it might not always run before your Google tags. To handle such situations, specify wait_for_update along with a millisecond value to control how long to wait before data is sent."
