@@ -1,10 +1,10 @@
 homepage: "https://www.netgo.hu/"
 documentation: "https://github.com/netgohu/tagmanager_consent_template/"
 versions:
-  - sha: 2539fd7c6f79f5f432c7260c580f910d13e6ff31
-    changeNotes: Initial release.
-  - sha: 63eb52883e566fdf681f2e1ac2c0d8e4f3cee3b4
-    changeNotes: wait_for_update can be zero  
   - sha: 041b2109c96ef3f6b4cc0d58250859d3576b75a3
     changeNotes: wait_for_update valueValidators is set to POSITIVE_NUMBER
+  - sha: 63eb52883e566fdf681f2e1ac2c0d8e4f3cee3b4
+    changeNotes: wait_for_update can be zero  
+  - sha: 2539fd7c6f79f5f432c7260c580f910d13e6ff31
+    changeNotes: Initial release.  
     
